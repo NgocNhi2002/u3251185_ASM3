@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #546581;
+}
+
+/*--------------------- NAV ---------------------*/
+nav {
+    width: 100%;
+    background-color: #ce999b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 60px;
+    padding: 0 60px;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+}
+
+.menu > ul {
+    display: flex;
+}
+
+.menu > ul > li {
+    list-style: none;
+    width: 200px;
+    text-align: center;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+.menu > ul > li:hover,
+#active {
+    background-color: #403e3e;
+}
+
+/*--------------------- ARTICLE ---------------------*/
+article {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    margin-top: 110px;
+}
+
+.list-infor > li:nth-child(1) {
+    list-style: none;
+    font-size: 40px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.list-infor > li:nth-child(n+2) {
+    list-style: none;
+    width: 780px;
+    height: 60px;
+    background-color: black;
+    margin-top: 10px;
+    padding-left: 50px;
+    line-height: 60px;
+    border-radius: 20px;
+}
+
+.list-infor > li:last-child {
+    width: 600px;
+}
+
+.list-infor a {
+    text-decoration: none;
+    color: white;
+}
+
+.img-gordon {
+    position: absolute;
+    top: -100px;
+    right: -50px;
+}
+
+.img-gordon img {
+    width: 330px;
+}
+
+/*--------------------- FOOTER ---------------------*/
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: #ce999b;
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    color: white; /* Changes text color to white */
+    font-size: 16px; /* Optional: Adjust font size */
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+article {
+    flex: 1;
+}
+main {
+    flex: 1;
+}
+
+/* ----------- Responsive for tablet ----------- */
+@media (max-width: 992px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 30px;
+    }
+
+    .menu > ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu > ul > li {
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+
+    article {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .container {
+        margin-top: 60px;
+        align-items: center;
+    }
+
+    .list-infor > li:nth-child(n+2) {
+        width: 100%;
+    }
+
+    .img-gordon {
+        position: static;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .img-gordon img {
+        width: 250px;
+    }
+}
+
+
+/* ----------- Responsive for mobile ----------- */
+@media (max-width: 576px) {
+    nav {
+        padding: 10px 20px;
+    }
+
+    .menu > ul > li > a {
+        font-size: 22px;
+    }
+
+    .list-infor > li:nth-child(1) {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .list-infor > li:nth-child(n+2) {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+a
+    .img-gordon img {
+        width: 200px;
+    }
+
+    
+}
+
