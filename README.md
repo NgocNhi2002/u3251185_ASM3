@@ -1,12 +1,64 @@
-# u3251185_ASM3
-Rationale 
-In this project, a website honoring renowned Australian designer Gordon Andrews was designed and developed. The goal was to create a responsive, visually coherent, and understandable website that showcases his legacy and makes good use of HTML, CSS, and media queries. Overall, I am pleased with the way the finished website presents its information both structurally and aesthetically, particularly in the way it strikes a balance between accessibility and design.
-My main code editor for this project was Visual Studio Code, which I used for the majority of the development effort. Its integrated terminal, live preview extensions, and built-in support for HTML and CSS were particularly helpful to me.
-I made sure the website was readable and functioning on all screen sizes, even mobile ones like the iPhone 16, by paying great attention to responsive design. Flexible layout modifications and well-structured media queries were used to accomplish this.
-The structure and font of the biography section were another area that performed exceptionally well. I created a hierarchy with text alignment, font sizes, and spacing to make the content easier to scan. The site's artistic ambiance was preserved while readability was further enhanced by the use of a dark transparent backdrop box above the image.
-However, there was room for improvement in a few areas. At first, I experienced problems with content boxes on smaller screens covering the footer and navigation bar. A bad user experience resulted from the layout intermittently breaking when viewed on small devices. I fixed this by iteratively testing and improving the media queries, but these issues might have been completely avoided if I had started with a mobile-first design strategy. 
-Most of the pages on the finished website matched the first wireframes I made in Figma quite precisely. The navigation bar, the placement of the biography section, and the use of the backdrop image in particular all had good translations from design to code in terms of structure, layout, and visual hierarchy. My decisions during development were aided by having a clear visual reference from the start, which also guaranteed consistency across various screen sizes.
-Additionally, while I had planned to incorporate an image slider and hover animations to add interactivity and image featuring Gordon Andrews by adjusting the image opacity to 60% and layering it behind the main content using appropriate z-index and position styling, the result added both personality and atmosphere to the design without overwhelming the text but at the end it can not work properly which meant these were not included in the final version.
-Prototypes
-I used Figma to produce wireframes and mockups early in the development process. A footer anchored at the bottom of the viewport, a centered biography section with stylized text, and a fixed top navigation bar were all features of these prototypes. From the beginning, a key visual component was the semi-transparent background featuring a portrait of Andrews.
-Certain elements of the prototypes, such the background picture, navigation arrangement, and content organization, were fully incorporated into the finished design. Others, such as the intended interactive gallery for Andrews' work and the subtly animated section transitions, were either not included or only partially implemented because of time and technological constraints.
+**Rationale**
+# Gordon Andrews Tribute Website
+
+This project is a responsive and visually coherent website honoring renowned Australian designer **Gordon Andrews**. The primary goal was to present his legacy in an accessible and aesthetically pleasing format using **HTML**, **CSS**, and **media queries**.
+
+##  Development Tools
+
+- **Main Editor:** Visual Studio Code  
+  - Used for the majority of the development effort
+  - Helpful features: integrated terminal, live preview extensions, built-in HTML & CSS support
+
+##  Responsive Design
+
+Great attention was paid to ensure the website performs well across all screen sizes, including mobile devices like the iPhone 16:
+
+- Implemented **media queries** and **flexible layouts** for adaptability
+- Focused on layout structure to prevent elements from overlapping
+- Iterative testing to refine breakpoints and structure
+
+> **Challenge:** Early on, content boxes overlapped the footer and navigation on smaller screens.  
+> **Solution:** Refined media queries and layout rules, although a mobile-first approach from the start could have prevented this.
+
+##  Content & Aesthetics
+
+- Strong emphasis on **accessibility** without sacrificing artistic design
+- Biography section featured:
+  - Text hierarchy with alignment, font sizing, and spacing
+  - A **dark transparent background box** over an image to enhance readability while preserving ambiance
+
+##  Design Process
+
+- **Prototyping Tool:** Figma
+  - Created wireframes and mockups
+  - Key design features:
+    - Fixed top navigation bar
+    - Centered biography section with stylized text
+    - Anchored footer
+    - Semi-transparent portrait background of Gordon Andrews
+
+- Final implementation closely matched the Figma wireframes in:
+  - Navigation layout
+  - Section positioning
+  - Use of background imagery
+
+##  Unimplemented Features
+
+Some interactive features were planned but not fully realized due to time or technical limitations:
+
+-  Image slider for showcasing Andrews’ work
+-  Hover animations and section transitions
+-  Attempted to style a background image with:
+  - 60% opacity
+  - `z-index` and `position` styling for layering  
+  → **Outcome:** These features did not work as intended and were not included in the final version.
+
+##  Highlights
+
+- Good balance between **visual design** and **readability**
+- Fully functional across various devices
+- Clear visual reference from Figma helped ensure **consistency and structure**
+
+---
+
+> Overall, I am pleased with how the final website presents Gordon Andrews' legacy, particularly in balancing accessibility with artistic design.
