@@ -5,104 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gordon Andrews - Designer</title>
     <link rel="stylesheet" href="main.css">
-    <style>
-       main {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-   .image-box {
-    position: relative; 
 
-    margin-top: 150px;
-    margin-bottom: 80px;
-      width: 600px;
-      height: 400px;
-      background-color: rgba(255, 255, 255, 0.95);
-      border: 4px solid #ccc;
-      border-radius: 16px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    }
+     
 
-    .image-box img {
-      max-width: 90%;
-      max-height: 90%;
-      object-fit: contain;
-      border-radius: 8px;
-    }
-
-    .page-title {
-  position: absolute;
-  top: 90px;
-  
-  background-color: black;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-size: 1.5em;
-  font-family: sans-serif;
-  z-index: 1000;
-}
-.arrow {
-  background: none;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  position: absolute;
-  color: #333;
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 10px;
-  border-radius: 50%;
-  z-index: 10;
-}
-
-.left {
-  left: 20px;
-}
-
-.right {
-  right: 20px;
-}
-@media screen and (max-width: 430px) {
-  .image-box {
-    width: 90%;
-    height: auto;
-    margin-top: 100px;
-    margin-bottom: 60px;
-    padding: 1rem;
-    flex-direction: column;
-  }
-
-  .image-box img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .page-title {
-    top: 60px;
-    font-size: 1.2em;
-    padding: 8px 16px;
-    text-align: center;
-  }
-
-  .arrow {
-    font-size: 1.5rem;
-    padding: 8px;
-  }
-
-  .left {
-    left: 10px;
-  }
-
-  .right {
-    right: 10px;
-  }
-}
-    </style>
+    
     <script src="./script/script.js"></script>
 </head>
 <body>
@@ -122,7 +28,7 @@
     <main>
         <div class="image-box">
             <button class="arrow left">&#10094;</button>
-            <img id="carousel-image" src="Img/494813831_1238661474264765_6350029784922620011_n.png" alt="Centered Image">
+            <img id="carousel-image" src="./assets/images/494813831_1238661474264765_6350029784922620011_n.png" alt="Centered Image">
             <button class="arrow right">&#10095;</button>
         </div>
     </main>
